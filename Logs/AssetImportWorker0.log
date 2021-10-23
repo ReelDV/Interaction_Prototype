@@ -1,57 +1,57 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.9f1 (108be757e447) revision 1084391'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Enterprise; OS build 19042.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 32596 MB
+OS: 'Windows 10 Home; OS build 19042.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 32698 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.9f1\Editor\Unity.exe
+D:\Unity\2020.3.9f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/XR Interaction Toolkit Setup
+F:/XR Interaction Toolkit Setup
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57775
-Successfully changed project path to: D:/XR Interaction Toolkit Setup
-D:/XR Interaction Toolkit Setup
+49171
+Successfully changed project path to: F:/XR Interaction Toolkit Setup
+F:/XR Interaction Toolkit Setup
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 461.73 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 1.81 ms.
+Refreshing native plugins compatible for Editor in 65.57 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.96 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/XR Interaction Toolkit Setup/Assets
+[Subsystems] Discovering subsystems at path D:/Unity/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/XR Interaction Toolkit Setup/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2080 SUPER (ID=0x1e81)
+    Renderer: Radeon RX 580 Series (ID=0x67df)
     Vendor:   
-    VRAM:     8010 MB
-    Driver:   27.21.14.6137
+    VRAM:     8171 MB
+    Driver:   30.0.13017.1004
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
+Mono path[0] = 'D:/Unity/2020.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002939 seconds.
+Register platform support module: D:/Unity/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002229 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.14 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 61.03 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.550 seconds
+- Completed reload, in  6.641 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.174396 seconds.
+Registered in 0.003973 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.01 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 63.25 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -63,36 +63,120 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: D:/Unity/XR Interaction Toolkit Setup/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.840 seconds
+- Completed reload, in  1.312 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.57 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 2983 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.0 MB.
-System memory in use after: 130.3 MB.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 2984 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.1 MB.
+System memory in use after: 130.4 MB.
 
-Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3393.
-Total: 2.938300 ms (FindLiveObjects: 0.223800 ms CreateObjectMapping: 0.114500 ms MarkObjects: 1.581300 ms  DeleteObjects: 1.018000 ms)
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3395.
+Total: 4.190700 ms (FindLiveObjects: 0.343600 ms CreateObjectMapping: 0.078100 ms MarkObjects: 2.259200 ms  DeleteObjects: 1.508000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/Lever Remote.cs
-  artifactKey: Guid(ad9e3b3141bb55347bfa3f8b02bf0793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Lever Remote.cs using Guid(ad9e3b3141bb55347bfa3f8b02bf0793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19466258a40cc3578e9167fba73f4fd4') in 0.028135 seconds
-  Import took 0.053021 seconds .
+  path: Assets/Scripts/RemoteActivate.cs
+  artifactKey: Guid(ed4420077a2586d4b842251841f9a7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RemoteActivate.cs using Guid(ed4420077a2586d4b842251841f9a7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d8281f32694729d7a9b098160573fb') in 0.248134 seconds
+  Import took 0.254044 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.415709 seconds.
+Registered in 0.003786 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: D:/Unity/XR Interaction Toolkit Setup/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.156 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2892 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.2 MB.
+System memory in use after: 126.6 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3399.
+Total: 4.329700 ms (FindLiveObjects: 0.350700 ms CreateObjectMapping: 0.078000 ms MarkObjects: 2.366400 ms  DeleteObjects: 1.532500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004009 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: D:/Unity/XR Interaction Toolkit Setup/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.197 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 2892 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.2 MB.
+System memory in use after: 126.6 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3403.
+Total: 6.898700 ms (FindLiveObjects: 0.365400 ms CreateObjectMapping: 0.081900 ms MarkObjects: 4.094500 ms  DeleteObjects: 2.354000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003968 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: D:/Unity/XR Interaction Toolkit Setup/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.106 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 2892 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.3 MB.
+System memory in use after: 126.6 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3407.
+Total: 4.668500 ms (FindLiveObjects: 0.352700 ms CreateObjectMapping: 0.076700 ms MarkObjects: 2.544300 ms  DeleteObjects: 1.692700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003696 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 4 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
 NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
@@ -101,99 +185,179 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: D:/Unity/XR Interaction Toolkit Setup/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.796 seconds
+- Completed reload, in  1.117 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 2891 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129.0 MB.
-System memory in use after: 126.4 MB.
+Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2892 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.3 MB.
+System memory in use after: 126.7 MB.
 
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3397.
-Total: 2.975300 ms (FindLiveObjects: 0.233700 ms CreateObjectMapping: 0.109800 ms MarkObjects: 1.557000 ms  DeleteObjects: 1.074000 ms)
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3411.
+Total: 6.000600 ms (FindLiveObjects: 0.425700 ms CreateObjectMapping: 0.084300 ms MarkObjects: 3.297300 ms  DeleteObjects: 2.191000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003922 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: D:/Unity/XR Interaction Toolkit Setup/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.121 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2892 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.3 MB.
+System memory in use after: 126.7 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3415.
+Total: 4.535200 ms (FindLiveObjects: 0.416000 ms CreateObjectMapping: 0.089700 ms MarkObjects: 2.295900 ms  DeleteObjects: 1.731800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003707 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: D:/Unity/XR Interaction Toolkit Setup/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.149 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 2892 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.3 MB.
+System memory in use after: 126.7 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3419.
+Total: 5.047100 ms (FindLiveObjects: 0.526100 ms CreateObjectMapping: 0.130500 ms MarkObjects: 2.652700 ms  DeleteObjects: 1.734900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 67.895532 seconds.
-  path: Assets/Scripts/Lever Remote.cs
-  artifactKey: Guid(ad9e3b3141bb55347bfa3f8b02bf0793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Lever Remote.cs using Guid(ad9e3b3141bb55347bfa3f8b02bf0793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7917a24adcd08921d01de5182c733b55') in 0.011769 seconds
-  Import took 0.066143 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002371 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: D:/Unity/XR Interaction Toolkit Setup/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.766 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 2890 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129.0 MB.
-System memory in use after: 126.4 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3400.
-Total: 2.987900 ms (FindLiveObjects: 0.262500 ms CreateObjectMapping: 0.136500 ms MarkObjects: 1.490700 ms  DeleteObjects: 1.097100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002178 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: D:/Unity/XR Interaction Toolkit Setup/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.768 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 2891 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129.1 MB.
-System memory in use after: 126.5 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3405.
-Total: 3.003600 ms (FindLiveObjects: 0.213500 ms CreateObjectMapping: 0.103500 ms MarkObjects: 1.557700 ms  DeleteObjects: 1.128300 ms)
+  Time since last request: 4677.966394 seconds.
+  path: Assets/Scripts/VignetteScript.cs
+  artifactKey: Guid(174fae68c62c53947afb4a1e8a7d19ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VignetteScript.cs using Guid(174fae68c62c53947afb4a1e8a7d19ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5001d139b2bb964c138cda1264fb42c') in 0.010886 seconds
+  Import took 0.015898 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 63.947662 seconds.
-  path: Assets/Scripts/LeverRemote.cs
-  artifactKey: Guid(1d72cb3d8911d944e8ea86e44f52c896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LeverRemote.cs using Guid(1d72cb3d8911d944e8ea86e44f52c896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eaf8890cf1519f33ff460afc00bbd04') in 0.014599 seconds
-  Import took 0.050604 seconds .
+  Time since last request: 116.943606 seconds.
+  path: Assets/Scenes/Interaction Prototype/Vignette Profile 1.asset
+  artifactKey: Guid(2e4acd1f092eba647b4410b9a294a39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Interaction Prototype/Vignette Profile 1.asset using Guid(2e4acd1f092eba647b4410b9a294a39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75381676a97106751d5e3cfd3eaff215') in 0.024294 seconds
+  Import took 0.029928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.903310 seconds.
+  path: Assets/Scenes/Interaction Prototype/Vignette Profile.asset
+  artifactKey: Guid(4d5d9a296572067469a26aec97f90c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Interaction Prototype/Vignette Profile.asset using Guid(4d5d9a296572067469a26aec97f90c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac224612f25d00924483baaa6a6753e8') in 0.015491 seconds
+  Import took 0.050215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.922996 seconds.
+  path: Assets/Scenes/Interaction Prototype
+  artifactKey: Guid(b87ba7261ab292d4893e0cfe16c92214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Interaction Prototype using Guid(b87ba7261ab292d4893e0cfe16c92214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b569b2d9f81f3a5a77c83fcc065084') in 0.009054 seconds
+  Import took 0.014058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 243.163527 seconds.
+  path: Assets/Scripts/Vignette.cs
+  artifactKey: Guid(a167c686e89ddad459f49a089fe843cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Vignette.cs using Guid(a167c686e89ddad459f49a089fe843cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9122fba43b4db7f2d158a06fae4e4de7') in 0.008356 seconds
+  Import took 0.016428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007368 seconds.
+  path: Assets/Scripts/Vignette.cs
+  artifactKey: Guid(a167c686e89ddad459f49a089fe843cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Vignette.cs using Guid(a167c686e89ddad459f49a089fe843cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9122fba43b4db7f2d158a06fae4e4de7') in 0.035147 seconds
+  Import took 0.041381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 229.747758 seconds.
+  path: Assets/Scripts/Vignette.cs
+  artifactKey: Guid(a167c686e89ddad459f49a089fe843cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Vignette.cs using Guid(a167c686e89ddad459f49a089fe843cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881f81bcb3a0f926117eda068b627cb3') in 0.008569 seconds
+  Import took 0.030700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.493473 seconds.
+  path: Assets/Scripts/VignetteScript.cs
+  artifactKey: Guid(174fae68c62c53947afb4a1e8a7d19ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VignetteScript.cs using Guid(174fae68c62c53947afb4a1e8a7d19ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaaaa1d7b3b6185d03fd3147afa25c23') in 0.007320 seconds
+  Import took 0.012640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 153.026231 seconds.
+  path: Assets/Scripts/Vignette.cs
+  artifactKey: Guid(a167c686e89ddad459f49a089fe843cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Vignette.cs using Guid(a167c686e89ddad459f49a089fe843cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b904d3d5ae42503a17077e205168c2') in 0.007152 seconds
+  Import took 0.013111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 807.084565 seconds.
+  path: Assets/Scripts/Vignette.cs
+  artifactKey: Guid(a167c686e89ddad459f49a089fe843cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Vignette.cs using Guid(a167c686e89ddad459f49a089fe843cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8bc0730a6083f4e7ed5b19378f081b') in 0.007735 seconds
+  Import took 0.013602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 505.243490 seconds.
+  path: Assets/Scripts/Vignette.cs
+  artifactKey: Guid(a167c686e89ddad459f49a089fe843cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Vignette.cs using Guid(a167c686e89ddad459f49a089fe843cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb298a4ad4e72e2b9a98a8268efad85') in 0.008933 seconds
+  Import took 0.014522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.857716 seconds.
+  path: Assets/Scripts/VignetteScript.cs
+  artifactKey: Guid(174fae68c62c53947afb4a1e8a7d19ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VignetteScript.cs using Guid(174fae68c62c53947afb4a1e8a7d19ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9194f6650eeee6840acdd4bcbdaa4178') in 0.007153 seconds
+  Import took 0.012633 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002151 seconds.
+Registered in 0.004362 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
 NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
@@ -201,55 +365,27 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: D:/Unity/XR Interaction Toolkit Setup/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.775 seconds
+- Completed reload, in  1.146 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 2891 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129.1 MB.
-System memory in use after: 126.5 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3409.
-Total: 3.373200 ms (FindLiveObjects: 0.215800 ms CreateObjectMapping: 0.110200 ms MarkObjects: 1.813300 ms  DeleteObjects: 1.233200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002378 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: D:/Unity/XR Interaction Toolkit Setup/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.747 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 2891 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129.1 MB.
-System memory in use after: 126.5 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3413.
-Total: 3.160100 ms (FindLiveObjects: 0.224800 ms CreateObjectMapping: 0.100600 ms MarkObjects: 1.632100 ms  DeleteObjects: 1.201900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002216 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 4 plugins.
 Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2891 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.3 MB.
+System memory in use after: 126.7 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3422.
+Total: 9.318800 ms (FindLiveObjects: 0.840400 ms CreateObjectMapping: 0.232200 ms MarkObjects: 3.969900 ms  DeleteObjects: 4.270500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004225 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
 NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
@@ -257,283 +393,35 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: D:/Unity/XR Interaction Toolkit Setup/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.748 seconds
+- Completed reload, in  1.153 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 2891 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129.2 MB.
-System memory in use after: 126.5 MB.
+Refreshing native plugins compatible for Editor in 1.04 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 2892 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.3 MB.
+System memory in use after: 126.7 MB.
 
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3417.
-Total: 3.099200 ms (FindLiveObjects: 0.227100 ms CreateObjectMapping: 0.104000 ms MarkObjects: 1.572600 ms  DeleteObjects: 1.194800 ms)
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3427.
+Total: 4.607300 ms (FindLiveObjects: 0.359100 ms CreateObjectMapping: 0.078000 ms MarkObjects: 2.258500 ms  DeleteObjects: 1.910100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 544.027509 seconds.
-  path: Assets/Scripts/LeverRemote.cs
-  artifactKey: Guid(1d72cb3d8911d944e8ea86e44f52c896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LeverRemote.cs using Guid(1d72cb3d8911d944e8ea86e44f52c896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4d54951b86040f327f91de9899a339') in 0.037469 seconds
-  Import took 0.043841 seconds .
+  Time since last request: 223.000158 seconds.
+  path: Assets/Scripts/VignetteScript.cs
+  artifactKey: Guid(90c535f3f7f94a647b802249c177e012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VignetteScript.cs using Guid(90c535f3f7f94a647b802249c177e012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67615ce886c92f14407d1ec872ae34e') in 0.011399 seconds
+  Import took 0.030799 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.814125 seconds.
+Registered in 0.004118 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: D:/Unity/XR Interaction Toolkit Setup/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.770 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 2891 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129.2 MB.
-System memory in use after: 126.5 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3421.
-Total: 3.089800 ms (FindLiveObjects: 0.218200 ms CreateObjectMapping: 0.104600 ms MarkObjects: 1.567200 ms  DeleteObjects: 1.198600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 370.473607 seconds.
-  path: Assets/Scenes/Interaction Prototype.unity
-  artifactKey: Guid(d7ccfba30076838498896d225080af34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Interaction Prototype.unity using Guid(d7ccfba30076838498896d225080af34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778cb7b4fb65d04103801254b86e9cb1') in 0.081445 seconds
-  Import took 0.412540 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 38.770874 seconds.
-  path: Assets/Scenes/Interaction Prototype.unity
-  artifactKey: Guid(d7ccfba30076838498896d225080af34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Interaction Prototype.unity using Guid(d7ccfba30076838498896d225080af34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c57ed4dcbfce1cd9b9ddd4ca631b95') in 0.007849 seconds
-  Import took 0.071404 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002271 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: D:/Unity/XR Interaction Toolkit Setup/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.750 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 2891 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129.2 MB.
-System memory in use after: 126.6 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3425.
-Total: 3.130300 ms (FindLiveObjects: 0.213300 ms CreateObjectMapping: 0.115800 ms MarkObjects: 1.618900 ms  DeleteObjects: 1.181400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 910.153014 seconds.
-  path: Assets/Prefabs/Remote.prefab
-  artifactKey: Guid(6237be8fce05fff429735628edde5ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Remote.prefab using Guid(6237be8fce05fff429735628edde5ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2159d7260c0abea90f9a92ad5c7227') in 0.193647 seconds
-  Import took 0.212445 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.261850 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: D:/Unity/XR Interaction Toolkit Setup/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.907 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 2891 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.4 MB.
-System memory in use after: 131.8 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3475.
-Total: 3.046100 ms (FindLiveObjects: 0.222500 ms CreateObjectMapping: 0.110900 ms MarkObjects: 1.658400 ms  DeleteObjects: 1.053500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002225 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: D:/Unity/XR Interaction Toolkit Setup/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.786 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 2891 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.5 MB.
-System memory in use after: 131.8 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3479.
-Total: 3.156500 ms (FindLiveObjects: 0.218200 ms CreateObjectMapping: 0.102700 ms MarkObjects: 1.665900 ms  DeleteObjects: 1.168800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002346 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: D:/Unity/XR Interaction Toolkit Setup/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.781 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 2891 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.4 MB.
-System memory in use after: 131.8 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3483.
-Total: 3.217100 ms (FindLiveObjects: 0.285500 ms CreateObjectMapping: 0.125300 ms MarkObjects: 1.636000 ms  DeleteObjects: 1.169500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002189 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: D:/Unity/XR Interaction Toolkit Setup/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.761 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 2891 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.4 MB.
-System memory in use after: 131.8 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3487.
-Total: 3.138400 ms (FindLiveObjects: 0.212500 ms CreateObjectMapping: 0.102000 ms MarkObjects: 1.641400 ms  DeleteObjects: 1.181900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002201 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: D:/Unity/XR Interaction Toolkit Setup/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.772 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 2891 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.5 MB.
-System memory in use after: 131.8 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3491.
-Total: 3.179400 ms (FindLiveObjects: 0.228200 ms CreateObjectMapping: 0.109400 ms MarkObjects: 1.635700 ms  DeleteObjects: 1.205400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002195 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: D:/Unity/XR Interaction Toolkit Setup/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.778 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
 Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 2891 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.5 MB.
-System memory in use after: 131.8 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3495.
-Total: 3.174500 ms (FindLiveObjects: 0.222800 ms CreateObjectMapping: 0.106000 ms MarkObjects: 1.630700 ms  DeleteObjects: 1.214200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.758937 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
 NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
@@ -541,27 +429,27 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: D:/Unity/XR Interaction Toolkit Setup/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.786 seconds
+- Completed reload, in  1.187 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 2891 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.5 MB.
-System memory in use after: 131.8 MB.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2892 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.3 MB.
+System memory in use after: 126.7 MB.
 
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3499.
-Total: 3.273500 ms (FindLiveObjects: 0.253700 ms CreateObjectMapping: 0.108500 ms MarkObjects: 1.662000 ms  DeleteObjects: 1.248300 ms)
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3431.
+Total: 5.113500 ms (FindLiveObjects: 0.362100 ms CreateObjectMapping: 0.079500 ms MarkObjects: 2.626300 ms  DeleteObjects: 2.043000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002253 seconds.
+Registered in 0.004936 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
@@ -569,16 +457,44 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: D:/Unity/XR Interaction Toolkit Setup/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.775 seconds
+- Completed reload, in  1.207 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 2891 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.5 MB.
-System memory in use after: 131.8 MB.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2892 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.3 MB.
+System memory in use after: 126.7 MB.
 
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3503.
-Total: 3.274800 ms (FindLiveObjects: 0.232800 ms CreateObjectMapping: 0.106100 ms MarkObjects: 1.712300 ms  DeleteObjects: 1.222800 ms)
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3435.
+Total: 4.802100 ms (FindLiveObjects: 0.342700 ms CreateObjectMapping: 0.074600 ms MarkObjects: 2.627600 ms  DeleteObjects: 1.754300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006676 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Unity\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: D:/Unity/XR Interaction Toolkit Setup/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.155 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2892 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.4 MB.
+System memory in use after: 126.8 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3439.
+Total: 5.072400 ms (FindLiveObjects: 0.337300 ms CreateObjectMapping: 0.075900 ms MarkObjects: 2.584700 ms  DeleteObjects: 2.072200 ms)
 

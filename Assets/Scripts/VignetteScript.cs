@@ -16,12 +16,12 @@ public class VignetteScript : MonoBehaviour
     private Volume volume;
     Vignette vignette;
     [SerializeField]
-    InputActionReference continuousMove;
+    InputActionReference continousMove;
 
     private void Awake()
     {
-        continuousMove.action.performed += FadeIn;
-        continuousMove.action.performed += FadeOut;
+        continousMove.action.performed += FadeIn;
+        continousMove.action.canceled += FadeOut;
 
         if (volume.profile.TryGet(out Vignette vignette))
             this.vignette = vignette;
