@@ -9,16 +9,15 @@ public class RemoteActivate : MonoBehaviour
     [SerializeField]
     GameObject Green;
     private XRGrabInteractable grabInteractable;
-    // Start is called before the first frame update
     void Awake()
     {
         grabInteractable = GetComponent<XRGrabInteractable>();
-        grabInteractable.activated.AddListener(TVOn);
+        grabInteractable.activated.AddListener(TVOn);   //Activates once trigger press is inputted
     }
 
     private void TVOn(ActivateEventArgs arg0)
     {
-        Green.SetActive(true);
+        Green.SetActive(true);  //Green panel appears once trigger is pressed with the remote
 
     }
 
