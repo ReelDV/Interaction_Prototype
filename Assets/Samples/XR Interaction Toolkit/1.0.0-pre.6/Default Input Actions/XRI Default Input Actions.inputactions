@@ -897,6 +897,33 @@
                     "isPartOfComposite": true
                 }
             ]
+        },
+        {
+            "name": "SecondButton",
+            "id": "b82b60d4-dca3-438f-a51e-4843c32705ec",
+            "actions": [
+                {
+                    "name": "Reload",
+                    "type": "Button",
+                    "id": "18476664-e9f7-4481-8fc9-0c5c99f096d4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e581ca3d-4d50-4d24-8323-d1e4bd6f3c06",
+                    "path": "<XRController>/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Reload",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [
