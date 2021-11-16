@@ -457,7 +457,7 @@ GameObject:
   - component: {fileID: 5386122683561773827}
   - component: {fileID: 5386122683561773825}
   m_Layer: 0
-  m_Name: XR Rig 1
+  m_Name: XR Rig IP
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
