@@ -1,57 +1,57 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.9f1 (108be757e447) revision 1084391'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 32698 MB
+OS: 'Windows 10 Enterprise; OS build 19042.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 32596 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\Unity\2020.3.9f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.9f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-F:/XR Interaction Toolkit Setup
+D:/XR Interaction Toolkit Setup
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56901
-Successfully changed project path to: F:/XR Interaction Toolkit Setup
-F:/XR Interaction Toolkit Setup
+54885
+Successfully changed project path to: D:/XR Interaction Toolkit Setup
+D:/XR Interaction Toolkit Setup
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 79.45 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 2.38 ms.
+Refreshing native plugins compatible for Editor in 49.41 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 1.86 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
-[Subsystems] Discovering subsystems at path D:/Unity/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path F:/XR Interaction Toolkit Setup/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/XR Interaction Toolkit Setup/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Renderer: NVIDIA GeForce RTX 2080 SUPER (ID=0x1e81)
     Vendor:   
-    VRAM:     8171 MB
-    Driver:   30.0.13031.5001
+    VRAM:     8010 MB
+    Driver:   27.21.14.6137
 Initialize mono
-Mono path[0] = 'D:/Unity/2020.3.9f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Unity/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002482 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002588 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 71.09 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Refreshing native plugins compatible for Editor in 47.99 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.766 seconds
+- Completed reload, in  1.536 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003872 seconds.
+Registered in 0.002403 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 77.72 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
+Refreshing native plugins compatible for Editor in 50.58 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -60,165 +60,117 @@ NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\XR Interaction Toolkit Setup\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
 
-(Filename: D:/XR Interaction Toolkit Setup/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.348 seconds
+- Completed reload, in  0.901 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
 Unloading 3365 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.7 MB.
-System memory in use after: 151.0 MB.
+System memory in use before: 154.3 MB.
+System memory in use after: 151.6 MB.
 
 Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3780.
-Total: 4.416800 ms (FindLiveObjects: 0.377200 ms CreateObjectMapping: 0.086800 ms MarkObjects: 2.465500 ms  DeleteObjects: 1.485400 ms)
+Total: 3.060700 ms (FindLiveObjects: 0.249900 ms CreateObjectMapping: 0.129500 ms MarkObjects: 1.634500 ms  DeleteObjects: 1.046000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Materials/Interaction Scene
-  artifactKey: Guid(93ef972aa9126c5428c11e80caf4540e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Interaction Scene using Guid(93ef972aa9126c5428c11e80caf4540e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a6f481599b78b14b5af25fbe2c416b') in 0.015109 seconds
-  Import took 0.039918 seconds .
+  path: Assets/Textures/Prism/Sci-fi_Wall_011_basecolor.jpg
+  artifactKey: Guid(e968f0653aee0d84e942ba1c536046bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Prism/Sci-fi_Wall_011_basecolor.jpg using Guid(e968f0653aee0d84e942ba1c536046bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098920906add21f23e05a9fb1a0d964e') in 0.069408 seconds
+  Import took 0.156421 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.663014 seconds.
-  path: Assets/Materials/Material Gallery
-  artifactKey: Guid(5ebda904505f2f84d8cd04c49058c635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Material Gallery using Guid(5ebda904505f2f84d8cd04c49058c635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc9f1db5ccbbebdd87c84a5fb4d9260') in 0.009112 seconds
-  Import took 0.015524 seconds .
+  Time since last request: 59.736453 seconds.
+  path: Assets/Textures/Scifi_Panel_14_Ambient_Occlusion.png
+  artifactKey: Guid(540b3a50e768c184084f8859039aebaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Scifi_Panel_14_Ambient_Occlusion.png using Guid(540b3a50e768c184084f8859039aebaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c7a86afeebae528258ee11faa88ee5') in 0.038983 seconds
+  Import took 0.044164 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 66.526401 seconds.
-  path: Assets/Materials/Material Gallery/TexturesCom_Pavement_Tactile5_1K_albedo.tif
-  artifactKey: Guid(09146cce99c524946875024bd5cd1f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Material Gallery/TexturesCom_Pavement_Tactile5_1K_albedo.tif using Guid(09146cce99c524946875024bd5cd1f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad0c1c93bda09d108ec20093e3326fdd') in 0.100353 seconds
-  Import took 0.107300 seconds .
+  Time since last request: 177.925715 seconds.
+  path: Assets/Textures/Scifi_Panel_12_Ambient_Occlusion.png
+  artifactKey: Guid(674fdd846fcc2884fa380433aebca9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Scifi_Panel_12_Ambient_Occlusion.png using Guid(674fdd846fcc2884fa380433aebca9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924659a901ac5942b721c35bc47c999d') in 0.027922 seconds
+  Import took 0.048947 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 43.449985 seconds.
-  path: Assets/Materials/Material Gallery/Materials
-  artifactKey: Guid(5e7e4470fe2c675468f9e2d333a9272c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Material Gallery/Materials using Guid(5e7e4470fe2c675468f9e2d333a9272c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e565e62171841bd7270f8f3b9dcdc339') in 0.009075 seconds
-  Import took 0.015695 seconds .
+  Time since last request: 1.173828 seconds.
+  path: Assets/Textures/Scifi_Panel_14_Normal.png
+  artifactKey: Guid(c18969085b7040845b72a214f1571eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Scifi_Panel_14_Normal.png using Guid(c18969085b7040845b72a214f1571eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544045bc55da457a325799e2e9563148') in 0.057502 seconds
+  Import took 0.063421 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 97.846043 seconds.
-  path: Assets/Textures
-  artifactKey: Guid(fea4ed4cc12d3fa46b5028846b4c6c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures using Guid(fea4ed4cc12d3fa46b5028846b4c6c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8e5dad2e30ed60aede053ed78b985d') in 0.022723 seconds
-  Import took 0.030150 seconds .
+  Time since last request: 52.964770 seconds.
+  path: Assets/Sci-fi_Floor_001_ambientOcclusion.jpg
+  artifactKey: Guid(caef53fe658c56b49b9daad54405ae64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi_Floor_001_ambientOcclusion.jpg using Guid(caef53fe658c56b49b9daad54405ae64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4683da18921a9d97ab59e4dfdd05cf7') in 0.017065 seconds
+  Import took 0.039962 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.320481 seconds.
-  path: Assets/Materials/Material Gallery/Materials/TexturesCom_Pavement_Tactile5_1K_ao.tif
-  artifactKey: Guid(34ca2a06cef3c5544a5fda1a7e87dc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Material Gallery/Materials/TexturesCom_Pavement_Tactile5_1K_ao.tif using Guid(34ca2a06cef3c5544a5fda1a7e87dc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '050b5cbcb7cf96819935c0ab33b3297e') in 0.018260 seconds
-  Import took 0.026731 seconds .
+  Time since last request: 1.513106 seconds.
+  path: Assets/Sci-fi_Floor_001_height.png
+  artifactKey: Guid(e4cb6221797334a48b50b62006ab35bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-fi_Floor_001_height.png using Guid(e4cb6221797334a48b50b62006ab35bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592815ba2629f3970428b5007a8ef519') in 0.023535 seconds
+  Import took 0.082006 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 761.002163 seconds.
-  path: Assets/TexturesCom_Scifi_Panel_2K_albedo.tif
-  artifactKey: Guid(f647733758225944baf8dd182192f734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TexturesCom_Scifi_Panel_2K_albedo.tif using Guid(f647733758225944baf8dd182192f734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2fdd45b6ed2c6bfce773463d2c6172c') in 0.021941 seconds
-  Import took 0.028315 seconds .
+  Time since last request: 26.110835 seconds.
+  path: Assets/Textures/Sci-fi_Floor_001_normal.jpg
+  artifactKey: Guid(4fc4883addfc06647b18c1e09958f070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sci-fi_Floor_001_normal.jpg using Guid(4fc4883addfc06647b18c1e09958f070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022804258b847586bae51ae70d95dd4d') in 0.022284 seconds
+  Import took 0.028046 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 154.962173 seconds.
-  path: Assets/Textures/TexturesCom_Scifi_Panel_1K_ao.tif
-  artifactKey: Guid(f235acfa660623440a758a5f78033af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/TexturesCom_Scifi_Panel_1K_ao.tif using Guid(f235acfa660623440a758a5f78033af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e958675ad3719ab41ba5c450dea09e9c') in 0.016743 seconds
-  Import took 0.023027 seconds .
+  Time since last request: 0.728779 seconds.
+  path: Assets/Textures/Sci-fi_Floor_001_roughness.jpg
+  artifactKey: Guid(11ebde434cc03804fbab872bfebb687a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sci-fi_Floor_001_roughness.jpg using Guid(11ebde434cc03804fbab872bfebb687a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030f8f2d7586c25e247395b7f09663c9') in 0.020069 seconds
+  Import took 0.041732 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 265.083392 seconds.
-  path: Assets/Textures/TexturesCom_Scifi_Panel_1K_albedo.tif
-  artifactKey: Guid(09fffcb1da1368645aa13c5af28689f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/TexturesCom_Scifi_Panel_1K_albedo.tif using Guid(09fffcb1da1368645aa13c5af28689f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a31262547505f5b6ee8734f0ef5d378') in 0.018070 seconds
-  Import took 0.024703 seconds .
+  Time since last request: 217.602482 seconds.
+  path: Assets/Textures/Metal
+  artifactKey: Guid(9bda5e8f064729c45b8a3df521dfd6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Metal using Guid(9bda5e8f064729c45b8a3df521dfd6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069c13026e7220da2c62d568a635c1ca') in 0.009697 seconds
+  Import took 0.014285 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002211 seconds.
-  path: Assets/Textures/TexturesCom_Scifi_Panel_1K_albedo.tif
-  artifactKey: Guid(09fffcb1da1368645aa13c5af28689f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/TexturesCom_Scifi_Panel_1K_albedo.tif using Guid(09fffcb1da1368645aa13c5af28689f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a31262547505f5b6ee8734f0ef5d378') in 0.015553 seconds
-  Import took 0.021960 seconds .
+  Time since last request: 0.001070 seconds.
+  path: Assets/Textures/Metal
+  artifactKey: Guid(9bda5e8f064729c45b8a3df521dfd6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Metal using Guid(9bda5e8f064729c45b8a3df521dfd6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069c13026e7220da2c62d568a635c1ca') in 0.006856 seconds
+  Import took 0.011630 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.451809 seconds.
-  path: Assets/Textures/TexturesCom_Scifi_Panel_1K_height.tif
-  artifactKey: Guid(36116a010a42b6a4f88a15de696f93e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/TexturesCom_Scifi_Panel_1K_height.tif using Guid(36116a010a42b6a4f88a15de696f93e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f167b7b89918dc1888d93862faaa91') in 0.015706 seconds
-  Import took 0.031111 seconds .
+  Time since last request: 1.296967 seconds.
+  path: Assets/Textures/Metal_Plate_046_ambientOcclusion.jpg
+  artifactKey: Guid(4ce55084e379afa4eafaecc95c1fc09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Metal_Plate_046_ambientOcclusion.jpg using Guid(4ce55084e379afa4eafaecc95c1fc09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566010b02ec48e3bd4d686cf25e3b863') in 0.018037 seconds
+  Import took 0.040320 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 206.447865 seconds.
-  path: Assets/Textures/TexturesCom_SciFiPanels09_1K_albedo.tif
-  artifactKey: Guid(2997bad3e28caef42b6ac82de03e5d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/TexturesCom_SciFiPanels09_1K_albedo.tif using Guid(2997bad3e28caef42b6ac82de03e5d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c40fd43b2cc0a9621909aadef7e6e72') in 0.017936 seconds
-  Import took 0.024383 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 230.844279 seconds.
-  path: Assets/Textures/TexturesCom_Various_AcousticFoam_2K_albedo.tif
-  artifactKey: Guid(01ab28ef859009c4f9b4cc88364f4d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/TexturesCom_Various_AcousticFoam_2K_albedo.tif using Guid(01ab28ef859009c4f9b4cc88364f4d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b01acf76c2fe9592bc9db18025b7ff') in 0.021565 seconds
-  Import took 0.029856 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 876.628482 seconds.
-  path: Assets/Textures/Metal_Grill_019_ambientOcclusion.jpg
-  artifactKey: Guid(d0345711f0ebdb949ad85abaf4e8545c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Metal_Grill_019_ambientOcclusion.jpg using Guid(d0345711f0ebdb949ad85abaf4e8545c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b10dcb46e69fae2534faac8cb94446') in 0.153310 seconds
-  Import took 0.173296 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.760470 seconds.
-  path: Assets/Textures/Metal_Grill_019_basecolor.jpg
-  artifactKey: Guid(e1e20123482ee714081338b3358d4c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Metal_Grill_019_basecolor.jpg using Guid(e1e20123482ee714081338b3358d4c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908fe04df45b80419d53e20a9a93603e') in 0.019395 seconds
-  Import took 0.025492 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 126.978000 seconds.
-  path: Assets/Textures/fan_Roughness.png
-  artifactKey: Guid(42ba286fd0ceec248a2cf142d35b155b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/fan_Roughness.png using Guid(42ba286fd0ceec248a2cf142d35b155b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0291e730ded69771fdc575b91e813b29') in 0.124123 seconds
-  Import took 0.130090 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.235160 seconds.
-  path: Assets/Textures/fan_Ambient_Occlusion.png
-  artifactKey: Guid(bd905183a8403354094b7387e4db833d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/fan_Ambient_Occlusion.png using Guid(bd905183a8403354094b7387e4db833d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b226e64b1541224c0eca48a07a2483') in 0.023629 seconds
-  Import took 0.030056 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.343511 seconds.
-  path: Assets/Textures/fan_Base_Color.png
-  artifactKey: Guid(fd4f752b26018d6479bc0760cab54481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/fan_Base_Color.png using Guid(fd4f752b26018d6479bc0760cab54481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15dda336605a0cd65c58a607395762c0') in 0.025939 seconds
-  Import took 0.041664 seconds .
+  Time since last request: 0.608425 seconds.
+  path: Assets/Textures/Metal_Plate_046_metallic.jpg
+  artifactKey: Guid(387a3ccdb40f96b489084212387ff734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Metal_Plate_046_metallic.jpg using Guid(387a3ccdb40f96b489084212387ff734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b64a157ad2f8e2799cfa64917b334f5') in 0.018125 seconds
+  Import took 0.035315 seconds .
 
